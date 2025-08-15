@@ -1,0 +1,11 @@
+{
+"version": 2,
+"functions": {
+"api/generate-image.js": { "runtime": "nodejs20.x" },
+"api/hello.js": { "runtime": "nodejs20.x" }
+},
+"routes": [
+{ "src": "/api/generate-image", "dest": "/api/generate-image.js" },
+{ "src": "/api/hello", "dest": "/api/hello.js" }
+]
+}
